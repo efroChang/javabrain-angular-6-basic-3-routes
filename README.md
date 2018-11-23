@@ -1,5 +1,8 @@
 # RouteIntro
 
+## [KEY] To create a project with "routing":
+`$ ng new route-intro --routing`
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.0.
 
 ## Development server

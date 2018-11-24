@@ -11,5 +11,5 @@ export class AppComponent {
   routes: Array<any> = [
     { routeName: 'Home', routePath: 'home'},
     { routeName: 'Settings', routePath: 'settings'}
-  ]
+  ];
 }

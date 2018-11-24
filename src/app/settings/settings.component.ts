@@ -5,11 +5,10 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './settings.component.html',
   styleUrls: ['./settings.component.css']
 })
-export class SettingsComponent implements OnInit {
+export class SettingsComponent {
 
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+  routes: Array<any> = [
+    { routeName: 'Profile', routePath: 'profile'},
+    { routeName: 'Contact Info', routePath: 'contact'}
+  ];
 }

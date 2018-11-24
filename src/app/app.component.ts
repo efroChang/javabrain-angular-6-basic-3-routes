@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+
+  routes: Array<any> = [
+    { routeName: 'Home', routePath: 'home'},
+    { routeName: 'Settings', routePath: 'settings'}
+  ]
 }

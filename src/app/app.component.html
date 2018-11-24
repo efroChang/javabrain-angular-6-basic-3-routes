@@ -1,7 +1,5 @@
 <h1>Main Page</h1>
 
-<a routerLink="home">Home</a>
-<br>
-<a routerLink="settings">Settings</a>
+<a *ngFor="let route of routes" [routerLink]="route.routePath">{{ route.routeName }}</a>
 
 <router-outlet></router-outlet>
